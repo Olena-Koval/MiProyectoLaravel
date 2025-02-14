@@ -4,13 +4,10 @@
 
 @section('content')
     @auth
-        <div>
-            <h2>Bienvenido, {{ Auth::user()->name }}</h2>
-            <div class="card">
-                <p>Ver Alumnos</p>
-            </div>
+        <div class="card">
+            <h2>Ver Alumnos</h2>
         </div>
     @else
-        <img src="{{ asset('images/welcome.png') }}" alt="Bienvenido">
+        <img src="{{ asset('images/default-image.jpg') }}" alt="Imagen representativa">
     @endauth
 @endsection

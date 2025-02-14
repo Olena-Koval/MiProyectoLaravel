@@ -7,15 +7,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-
     <x-layouts.header />
     <x-layouts.nav />
-
     <main>
         @yield('content')
     </main>
-
     <x-layouts.footer />
-
 </body>
 </html>
