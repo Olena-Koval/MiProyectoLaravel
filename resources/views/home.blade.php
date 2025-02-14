@@ -5,7 +5,7 @@
 @section('content')
     @auth
         <div>
-            <h2>Bienvenido {{ Auth::user()->name }}</h2>
+            <h2>Bienvenido, {{ Auth::user()->name }}</h2>
             <div class="card">
                 <p>Ver Alumnos</p>
             </div>
